@@ -2,6 +2,8 @@
 
 <img src="http://teamonetactical.com/logo_tmf_ca.png">
 
+(Modified for use by Legion Tactical)
+
 TMF is an open source, flexible and modular mission framework designed from the ground up for Arma 3's 3DEN editor.
 We created TMF intending it to be easy to pick up, but rich with features. A mission maker enabler, allowing them to focus on mission design instead of peripherals.
 The framework is addon based, keeping filesize down and ensuring that even old missions are up-to-date.
