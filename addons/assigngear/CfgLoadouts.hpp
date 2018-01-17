@@ -1,5 +1,8 @@
+#include "loadouts\_macros.hpp"
+
 class cfgLoadouts
 {
+
     class BLU_F
     {
         displayName = "NATO";
@@ -49,5 +52,24 @@ class cfgLoadouts
         category = "Vanilla";
         tooltip = "Uses civilian uniforms from vanilla Arma 3.";
         #include "loadouts\civ_f.hpp"
+    };
+
+    class US_ARMY_OCP
+    {
+        displayName = "US Army (OCP)";
+        category = "Modset";
+        #include "loadouts\us_army_ocp.hpp"
+    };
+    class RUS_MSV_FLORA
+    {
+        displayName = "RU Ground Forces (Flora)";
+        category = "Modset";
+        #include "loadouts\ru_msv_flora.hpp"
+    };
+    class TAK_ARMY
+    {
+        displayName = "Takistani Army";
+        category = "Modset";
+        #include "loadouts\taki_army.hpp"
     };
 };

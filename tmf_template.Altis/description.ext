@@ -41,19 +41,9 @@ class CfgDebriefing
 
 class CfgLoadouts
 {
-    class US_ARMY_OCP
+    class US_ARMY_OCP_EXAMPLE
     {
-        displayName = "US Army (OCP)";
-        #include "loadouts\us_army_ocp.hpp"
-    };
-    class RUS_MSV_FLORA
-    {
-        displayName = "RU Ground Forces (Flora)";
-        #include "loadouts\ru_msv_flora.hpp"
-    };
-    class TAK_ARMY
-    {
-        displayName = "Takistani Army";
-        #include "loadouts\taki_army.hpp"
+        displayName = "US Army (OCP) [EXAMPLE]";
+        #include "loadouts\us_army_ocp_example.hpp"
     };
 };
