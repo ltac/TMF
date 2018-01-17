@@ -72,4 +72,10 @@ class cfgLoadouts
         category = "Modset";
         #include "loadouts\taki_army.hpp"
     };
+    class BAF_MTP
+    {
+        displayName = "British Armed Forces (MTP)";
+        category = "Modset";
+        #include "loadouts\baf_mtp.hpp"
+    }
 };
