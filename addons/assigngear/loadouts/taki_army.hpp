@@ -2,8 +2,8 @@
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-     uniform[] = {"CUP_U_O_TK_MixedCamo","CUP_U_O_TK_Green"};
-       vest[] = {};
+     uniform[] = {"VSM_AOR1_BDU_tan_pants_Camo"};
+       vest[] = {"rhsgref_alice_webbing"};
        backpack[] = {"B_AssaultPack_mcamo"};
        headgear[] = {};
        goggles[] = {"default"};
@@ -47,8 +47,8 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = {"CUP_H_TK_Helmet","CUP_H_TK_Beret"};
-    vest[] = {"CUP_V_O_TK_Vest_1"};
+    headgear[] = {"VSM_FullShemagh_Tan_pattern","rhsgref_M56","rhsgref_helmet_pasgt_3color_desert"};
+    vest[] = {"rhsgref_alice_webbing"};
     backpack[] = {"rhs_sidor"};
     primaryWeapon[] = {"hlc_rifle_FAL5061"};
     scope[] = {};
@@ -69,7 +69,7 @@ class r : baseMan
 class g : r
 {
     displayName = "Grenadier";
-    vest[] = {"CUP_V_O_TK_Vest_1"};
+    vest[] = {"rhsgref_alice_webbing"};
     primaryWeapon[] = {"rhs_weap_m16a4_carryhandle_M203"};
     magazines[] =
     {
@@ -96,7 +96,7 @@ class car : r
 class m : car
 {
     displayName = "Medic";
-    vest[] = {"CUP_V_O_TK_Vest_1"};
+    vest[] = {"rhsgref_alice_webbing"};
     backpackItems[] = {
         LIST_15("ACE_fieldDressing"),
         LIST_10("ACE_morphine"),
@@ -189,7 +189,7 @@ class ar : r
     displayName = "Automatic Rifleman";
     primaryWeapon[] = {"hlc_lmg_M60E4"};
     bipod[] = {};
-    vest[] = {"CUP_V_O_TK_Vest_1"};
+    vest[] = {"rhsgref_alice_webbing"};
     sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
     magazines[] =
     {
@@ -313,7 +313,7 @@ class matag : car
 {
     displayName = "MAT Assistant Gunner";
     backpack[] = {"B_Carryall_khk"};
-    vest[] = {"CUP_V_O_TK_Vest_1"};
+    vest[] = {"rhsgref_alice_webbing"};
     linkedItems[] =
     {
         "ItemMap",
@@ -423,7 +423,7 @@ class samag : car
 class sn : r
 {
     displayName = "Sniper";
-    uniform[] = {"CUP_U_O_TK_Ghillie"};
+    uniform[] = {"U_I_FullGhillie_ard"};
     vest[] = {"V_Chestrig_rgr"};
     headgear[] = {};
     goggles[] = {"default"};
@@ -460,8 +460,8 @@ class sp : sn
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    uniform[] = {"CUP_U_O_TK_Green"};
-    vest[] = {"CUP_V_O_TK_Vest_1"};
+    uniform[] = {"VSM_AOR1_BDU_tan_pants_Camo"};
+    vest[] = {"rhsgref_alice_webbing"};
     backpack[] = {"rhsusf_assault_eagleaiii_ucp"};
     radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4"};
@@ -473,8 +473,8 @@ class vc : smg
 class vd : smg
 {
     displayName = "Vehicle Driver";
-    uniform[] = {"CUP_U_O_TK_Green"};
-    vest[] = {"CUP_V_O_TK_Vest_1"};
+    uniform[] = {"VSM_AOR1_BDU_tan_pants_Camo"};
+    vest[] = {"rhsgref_alice_webbing"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_tsh4"};
     linkedItems[] += {"ItemGPS"};
@@ -489,8 +489,8 @@ class vg : vd
 class pp : smg
 {
     displayName = "Helicopter Pilot";
-    uniform[] = {"CUP_U_O_TK_Green"};
-    vest[] = {"CUP_V_O_TK_Vest_1"};
+    uniform[] = {"VSM_AOR1_BDU_tan_pants_Camo"};
+    vest[] = {"rhsgref_alice_webbing"};
     backpack[] = {"rhs_sidor"};
     radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_zsh7a_mike"};
@@ -504,8 +504,8 @@ class pp : smg
 class pcc : smg
 {
     displayName = "Helicopter Crew Chief";
-    uniform[] = {"CUP_U_O_TK_Green"};
-    vest[] = {"CUP_V_O_TK_Vest_1"};
+    uniform[] = {"VSM_AOR1_BDU_tan_pants_Camo"};
+    vest[] = {"rhsgref_alice_webbing"};
     backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {"default"};
@@ -545,7 +545,7 @@ class jp : baseMan
 class eng : car
 {
     displayName = "Combat Engineer (Explosives)";
-    vest[] = {"CUP_V_O_TK_Vest_1"};
+    vest[] = {"rhsgref_alice_webbing"};
     backpack[] = {"B_Carryall_khk"};
     magazines[] +=
     {
@@ -562,7 +562,7 @@ class eng : car
 class engm : car
 {
     displayName = "Combat Engineer (Mines)";
-    vest[] = {"CUP_V_O_TK_Vest_1"};
+    vest[] = {"rhsgref_alice_webbing"};
     items[] +=
     {
         LIST_2("APERSBoundingMine_Range_Mag"),
