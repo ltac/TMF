@@ -3,6 +3,9 @@
 class cfgLoadouts
 {
 
+    /**
+     * Vanilla
+     */
     class BLU_F
     {
         displayName = "NATO";
@@ -54,23 +57,14 @@ class cfgLoadouts
         #include "loadouts\civ_f.hpp"
     };
 
+    /**
+     * Mod: BluFor
+     */
     class US_ARMY_OCP
     {
         displayName = "US Army (OCP)";
         category = "Modset";
         #include "loadouts\us_army_ocp.hpp"
-    };
-    class RUS_MSV_FLORA
-    {
-        displayName = "RU Ground Forces (Flora)";
-        category = "Modset";
-        #include "loadouts\ru_msv_flora.hpp"
-    };
-    class TAK_ARMY
-    {
-        displayName = "Takistani Army";
-        category = "Modset";
-        #include "loadouts\taki_army.hpp"
     };
     class BAF_MTP
     {
@@ -78,4 +72,30 @@ class cfgLoadouts
         category = "Modset";
         #include "loadouts\baf_mtp.hpp"
     }
+
+    /**
+     * Mod: OpFor
+     */
+    class RUS_MSV_FLORA
+    {
+        displayName = "RU Ground Forces (Flora)";
+        category = "Modset";
+        #include "loadouts\ru_msv_flora.hpp"
+    };
+    class OPF_AFGHAN
+    {
+        displayName = "Afghan Militia";
+        category = "Modset";
+        #include "loadouts\opf_afghan.hpp"
+    };
+
+    /**
+     * Mod: IndFor
+     */    
+    class TAK_ARMY
+    {
+        displayName = "Takistani Army";
+        category = "Modset";
+        #include "loadouts\taki_army.hpp"
+    };
 };

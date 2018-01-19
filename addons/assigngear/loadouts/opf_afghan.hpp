@@ -28,7 +28,6 @@ class baseMan {// Weaponless baseclass
         "V_BandollierB_oli"
     };
     backpack[] = {"B_AssaultPack_mcamo"};
-    headgear[] = {};
     goggles[] = {"default"};
     hmd[] = {};
     // Leave empty to remove all. "Default" > leave original item.
